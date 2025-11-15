@@ -1,0 +1,6 @@
+# render.yaml
+build:
+  command: pnpm install --frozen-lockfile && pnpm build
+
+start:
+  command: n8n start
